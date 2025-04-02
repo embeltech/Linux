@@ -1,7 +1,17 @@
 # Types of links
-## Softlink
 ## Hard link
+Files are made up of two parts.
+1. The data part containing the file's contents.
+2. The name part that holds the file's name.
+When we create hard links, we are actually creating additional name parts that all refer to the same data part.
+Hard link is additional entry of name part in directory file.
+ 
+ Limitation:
+ - A hard link cannot reference a file outside its own file system
+ - A hard link may not reference a directory
+If we delete hard link or a file as long as hardlink count is nonzero contents of the file itself continue to exist
 
+## Softlink
 ### Use of links in maintaining versions of lib or other shared resouces/files
 filename : foo  
 filename with version : foo-2.6  
