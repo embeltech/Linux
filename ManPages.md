@@ -1,6 +1,6 @@
 #### Man Page Organization
 
-Section		Contents
+Section		Contents  
 1 			  User commands  
 2 			  Programming interfaces for kernel system calls  
 3 			  Programming interfaces to the C library  
