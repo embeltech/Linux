@@ -20,6 +20,8 @@
 - redirect to file/overwrite: ls /bin > out.txt
 - redirect to file/append: ls /bin >> out txt
 - redirect std output and std error
+-- ls /bin > out.txt 2>&1
+-- ls /bin &> out txt
 
 ### Inode Related
 df -i
