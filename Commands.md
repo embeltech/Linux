@@ -15,6 +15,12 @@
 - file: file name_of_file to see details of file, its type
 - less: less name_of_file to see contents of TEXT file like cat command
 
+
+### Redirection & command pipeline
+- redirect to file/overwrite: ls /bin > out.txt
+- redirect to file/append: ls /bin >> out txt
+- redirect std output and std error
+
 ### Inode Related
 df -i
 ls -i /directory
