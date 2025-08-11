@@ -3,6 +3,7 @@
 Files are made up of two parts.
 1. The data part containing the file's contents.
 2. The name part that holds the file's name.
+
 When we create hard links, we are actually creating additional name parts that all refer to the same data part.
 Hard link is additional entry of name part in directory file.
  
